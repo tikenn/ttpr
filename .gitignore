@@ -1,5 +1,6 @@
 # Ignored Files #
 #################
 
-# Login and Database configuration file
+# Login and Database configuration files
 /php-login-admin/config/config.php
+/includes/db.php
