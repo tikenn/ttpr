@@ -11,4 +11,4 @@ The system only needs a web server running PHP (we use PHP-FPM specifically) and
   mysql -u root -p < ttpr.sql
   ```
 
-3. Change the information in 'php-login-admin/config.php.default' and 'includes/db.php.default' to meet your system's credentials and rename to 'php-login-admin/config.php' and ;includes/db.php' respectively
+3. Change the information in 'php-login-admin/config.php.default' and 'includes/db.php.default' to meet your system's credentials and rename to 'php-login-admin/config.php' and 'includes/db.php' respectively
