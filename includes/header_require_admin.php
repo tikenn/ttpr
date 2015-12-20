@@ -39,6 +39,8 @@ $permissions = new Permissions();
 
 if ($user->isUserLoggedIn() == false) {
     header("Location: /index.php?logout");
+} else if ($permissions->isUserAdmin() == false) {
+    header("Location: /index.php");
 }
 
 ?>

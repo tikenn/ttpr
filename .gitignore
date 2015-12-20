@@ -1,0 +1,5 @@
+# Ignored Files #
+#################
+
+# Login and Database configuration file
+/php-login-admin/config/config.php
